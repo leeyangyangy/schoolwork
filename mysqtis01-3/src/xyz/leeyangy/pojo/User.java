@@ -2,23 +2,11 @@ package xyz.leeyangy.pojo;
 
 import java.util.Date;
 
-public class Student {
+public class User {
     private Integer id;
     private String name;
-    private Date birthday;
+    private String passwd;
     private Integer age;
-    private double score;
-
-    public Student() {
-    }
-
-    public Student(Integer id, String name, Date birthday, Integer age, double score) {
-        this.id = id;
-        this.name = name;
-        this.birthday = birthday;
-        this.age = age;
-        this.score = score;
-    }
 
     public Integer getId() {
         return id;
@@ -36,12 +24,12 @@ public class Student {
         this.name = name;
     }
 
-    public Date getBirthday() {
-        return birthday;
+    public String getPasswd() {
+        return passwd;
     }
 
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
+    public void setPasswd(String passwd) {
+        this.passwd = passwd;
     }
 
     public Integer getAge() {
@@ -52,22 +40,24 @@ public class Student {
         this.age = age;
     }
 
-    public double getScore() {
-        return score;
+    public Date getBirthday() {
+        return birthday;
     }
 
-    public void setScore(double score) {
-        this.score = score;
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
     }
+
+    private Date birthday;
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", birthday=" + birthday +
+                ", passwd='" + passwd + '\'' +
                 ", age=" + age +
-                ", score=" + score +
+                ", birthday=" + birthday +
                 '}';
     }
 }

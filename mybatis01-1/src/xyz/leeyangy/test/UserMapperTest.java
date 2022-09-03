@@ -1,4 +1,4 @@
-package xyz.leeyangy;
+package xyz.leeyangy.test;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
