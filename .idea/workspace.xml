@@ -2,167 +2,143 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2190a38-ab77-4ee3-bc38-db4738011bc7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/mysqtis01-3/src/xyz/leeyangy/pojo/User.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mybatis01-01/web/WEB-INF/web.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mybatis01-1/mybatis01-1.iml" afterPath="$PROJECT_DIR$/mybatis01-1/mybatis01-1.iml" />
-      <change beforePath="$PROJECT_DIR$/mybatis01-1/src/xyz/leeyangy/UserMapperTest.java" afterPath="$PROJECT_DIR$/mybatis01-1/src/xyz/leeyangy/test/UserMapperTest.java" />
-      <change beforePath="$PROJECT_DIR$/mybatis01/resources/sql" afterPath="$PROJECT_DIR$/mybatis01/resources/sql" />
-      <change beforePath="$PROJECT_DIR$/mybatis01/web/WEB-INF/classes/db.properties" afterPath="$PROJECT_DIR$/mybatis01/web/WEB-INF/classes/db.properties" />
-      <change beforePath="$PROJECT_DIR$/mybatis01/web/WEB-INF/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/mybatis01/web/WEB-INF/classes/mybatis-config.xml" />
-      <change beforePath="$PROJECT_DIR$/mysqtis01-2/mysqtis01-2.iml" afterPath="$PROJECT_DIR$/mysqtis01-2/mysqtis01-2.iml" />
-      <change beforePath="$PROJECT_DIR$/mysqtis01-2/resources/db.properties" afterPath="$PROJECT_DIR$/mysqtis01-2/resources/db.properties" />
-      <change beforePath="$PROJECT_DIR$/mysqtis01-2/resources/log4j.properties" afterPath="$PROJECT_DIR$/mysqtis01-2/resources/log4j.properties" />
-      <change beforePath="$PROJECT_DIR$/mysqtis01-2/resources/mappers/StudentMapper.xml" afterPath="$PROJECT_DIR$/mysqtis01-2/resources/mappers/StudentMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/mysqtis01-2/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/mysqtis01-2/resources/mybatis-config.xml" />
-      <change beforePath="$PROJECT_DIR$/mysqtis01-2/src/xyz/leeyangy/pojo/Student.java" afterPath="$PROJECT_DIR$/mysqtis01-2/src/xyz/leeyangy/pojo/Student.java" />
-      <change beforePath="$PROJECT_DIR$/mysqtis01-2/src/xyz/leeyangy/test/StudentMapperTest.java" afterPath="$PROJECT_DIR$/mysqtis01-2/src/xyz/leeyangy/test/StudentMapperTest.java" />
-      <change beforePath="$PROJECT_DIR$/mysqtis01-3/mysqtis01-3.iml" afterPath="$PROJECT_DIR$/mysqtis01-3/mysqtis01-3.iml" />
-      <change beforePath="$PROJECT_DIR$/mysqtis01-3/resources/db.properties" afterPath="$PROJECT_DIR$/mysqtis01-3/resources/db.properties" />
-      <change beforePath="$PROJECT_DIR$/mysqtis01-3/resources/log4j.properties" afterPath="$PROJECT_DIR$/mysqtis01-3/resources/log4j.properties" />
-      <change beforePath="$PROJECT_DIR$/mysqtis01-3/resources/mappers/UserMapper.xml" afterPath="$PROJECT_DIR$/mysqtis01-3/resources/mappers/UserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/mysqtis01-3/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/mysqtis01-3/resources/mybatis-config.xml" />
-      <change beforePath="$PROJECT_DIR$/mysqtis01-3/src/xya/leeyangy/pojo/User.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mysqtis01-3/src/xyz/leeyangy/test/UserMapperTest.java" afterPath="$PROJECT_DIR$/mysqtis01-3/src/xyz/leeyangy/test/UserMapperTest.java" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis02_01/mybatis02_01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis02_02/mybatis02_02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis02_03/mybatis02_03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis03-01/mybatis03-01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis03-02/mybatis03-02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis03-03/mybatis03-03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/mybatis04-01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/src/xyz/leeyangy/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/src/xyz/leeyangy/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/src/xyz/leeyangy/test/TestUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/src/xyz/leeyangy/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/lib/hamcrest-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/lib/mybatis-3.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-01/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/mybatis04-02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/src/xyz/leeyangy/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/src/xyz/leeyangy/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/src/xyz/leeyangy/test/TestUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/src/xyz/leeyangy/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/lib/hamcrest-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/lib/mybatis-3.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-02/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/mybatis04-03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/src/xyz/leeyangy/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/src/xyz/leeyangy/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/src/xyz/leeyangy/test/TestUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/src/xyz/leeyangy/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/lib/hamcrest-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/lib/mybatis-3.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis04-03/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_add/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_add/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/mysqtis01-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-2/mysqtis01-2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-2/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-2/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/resources/mappers/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-2/resources/mappers/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-2/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/src/xyz/leeyangy/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-2/src/xyz/leeyangy/pojo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/src/xyz/leeyangy/test/StudentMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-2/src/xyz/leeyangy/test/StudentMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/web/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/web/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/web/WEB-INF/classes/mappers/StudentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/web/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/web/WEB-INF/classes/xyz/leeyangy/pojo/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/web/WEB-INF/classes/xyz/leeyangy/test/StudentMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/web/WEB-INF/lib/hamcrest-2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-2/web/WEB-INF/lib/hamcrest-2.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/web/WEB-INF/lib/junit-4.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-2/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/web/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-2/web/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/web/WEB-INF/lib/mybatis-3.5.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-2/web/WEB-INF/lib/mybatis-3.5.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/web/WEB-INF/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-2/web/WEB-INF/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-2/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-2/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-2/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/mysqtis01-3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-3/mysqtis01-3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-3/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-3/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-3/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-3/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/src/xyz/leeyangy/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-3/src/xyz/leeyangy/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/src/xyz/leeyangy/test/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-3/src/xyz/leeyangy/test/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/web/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/web/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/web/WEB-INF/classes/mappers/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/web/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/web/WEB-INF/classes/xyz/leeyangy/test/UserMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/web/WEB-INF/lib/hamcrest-2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-3/web/WEB-INF/lib/hamcrest-2.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/web/WEB-INF/lib/junit-4.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-3/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/web/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-3/web/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/web/WEB-INF/lib/mybatis-3.5.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-3/web/WEB-INF/lib/mybatis-3.5.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/web/WEB-INF/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-3/web/WEB-INF/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-3/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqtis01-3/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis01-3/web/index.jsp" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="StudentMapperTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqtis01-2/src/xyz/leeyangy/test/StudentMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqtis01-3/resources/mappers/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-              <folding>
-                <marker date="1662210621811" expanded="true" signature="265:283" ph="SELECT * fro... user" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqtis01-2/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="99" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqtis01-3/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="99" lean-forward="false" selection-start-line="7" selection-start-column="99" selection-end-line="7" selection-end-column="99" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqtis01-2/resources/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqtis01-3/resources/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqtis01-3/src/xyz/leeyangy/pojo/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-              <folding>
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#722#723#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapperTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqtis01-3/src/xyz/leeyangy/test/UserMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapperTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatis01-1/src/xyz/leeyangy/test/UserMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Emp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis01-1/src/xyz/leeyangy/pojo/Emp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1127">
-              <caret line="73" column="18" lean-forward="false" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -243,12 +219,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="311" />
     <option name="y" value="238" />
     <option name="width" value="1296" />
     <option name="height" value="1548" />
   </component>
+  <component name="ProjectId" id="2EfkuPGXOA37rYj35HJaYEKHLW1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -371,41 +351,36 @@
       <pane id="AndroidView" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysqtis01-3/web/WEB-INF/lib" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Users/LEEYANGYANG/IdeaProjects/schoolwork/mybatis01-2",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LEEYANGYANG\IdeaProjects\schoolwork" />
       <recent name="C:\Users\17872\IdeaProjects\learn_ssm\mysqtis01-3\web\WEB-INF\lib" />
       <recent name="C:\Users\17872\IdeaProjects\learn_ssm\mysqtis01-2\web\WEB-INF\lib" />
       <recent name="C:\Users\17872\IdeaProjects\learn_ssm\mybatis01-2\resources" />
       <recent name="C:\Users\17872\IdeaProjects\learn_ssm\mybatis01-2\web\WEB-INF\lib" />
-      <recent name="C:\Users\17872\IdeaProjects\learn_ssm\mybatis01-1\web\WEB-INF\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\17872\IdeaProjects\learn_ssm\mybatis01\resources\mapper" />
       <recent name="C:\Users\17872\IdeaProjects\learn_ssm\mybatis01\web\WEB-INF" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.UserMapperTest (2)">
+  <component name="RunManager" selected="JUnit.TestUserMapper.testFindUserByParam">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -413,173 +388,128 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="StudentMapperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="xyz.leeyangy.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.StudentMapperTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="mysqtis01-2" />
-      <envs />
-    </configuration>
-    <configuration name="UserMapperTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="xyz.leeyangy.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.UserMapperTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="mysqtis01-3" />
-      <envs />
-    </configuration>
-    <configuration name="UserMapperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="xyz.leeyangy.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.UserMapperTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="mybatis01" />
-      <envs />
-    </configuration>
-    <configuration name="UserMapperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="xyz.leeyangy.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.UserMapperTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="mybatis01-1" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis04-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.leeyangy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.leeyangy.test" />
+      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestUserMapper" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserMapper.testFindUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis04-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.leeyangy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.leeyangy.test" />
+      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestUserMapper" />
+      <option name="METHOD_NAME" value="testFindUserById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserMapper.testFindUserByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis04-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.leeyangy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.leeyangy.test" />
+      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestUserMapper" />
+      <option name="METHOD_NAME" value="testFindUserByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserMapper.testFindUserByNameAndPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis04-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.leeyangy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.leeyangy.test" />
+      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestUserMapper" />
+      <option name="METHOD_NAME" value="testFindUserByNameAndPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserMapper.testFindUserByParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis04-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.leeyangy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.leeyangy.test" />
+      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestUserMapper" />
+      <option name="METHOD_NAME" value="testFindUserByParam" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="mybatis01-2" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="_learn_ssm" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="59253" />
       </RunnerSettings>
@@ -628,32 +558,37 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.UserMapperTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.UserMapperTest (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StudentMapperTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.UserMapperTest (2)" />
+    <list>
+      <item itemvalue="JUnit.TestUserMapper" />
+      <item itemvalue="JUnit.TestUserMapper.testFindUserByName" />
+      <item itemvalue="JUnit.TestUserMapper.testFindUserByNameAndPassword" />
+      <item itemvalue="JUnit.TestUserMapper.testFindUserByParam" />
+      <item itemvalue="JUnit.TestUserMapper.testFindUserById" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.UserMapperTest (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StudentMapperTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.UserMapperTest (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StudentMapperTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.UserMapperTest" />
+      <list>
+        <item itemvalue="JUnit.TestUserMapper.testFindUserByParam" />
+        <item itemvalue="JUnit.TestUserMapper.testFindUserByNameAndPassword" />
+        <item itemvalue="JUnit.TestUserMapper.testFindUserByName" />
+        <item itemvalue="JUnit.TestUserMapper.testFindUserById" />
+        <item itemvalue="JUnit.TestUserMapper" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -674,6 +609,17 @@
       <workItem from="1662181225514" duration="10821000" />
       <workItem from="1662206177335" duration="1014000" />
       <workItem from="1662207220516" duration="3492000" />
+      <workItem from="1662994249266" duration="166000" />
+      <workItem from="1662994441161" duration="2905000" />
+      <workItem from="1663047724375" duration="1716000" />
+      <workItem from="1663052771804" duration="1740000" />
+      <workItem from="1663066192108" duration="1375000" />
+      <workItem from="1663083300878" duration="5836000" />
+      <workItem from="1663089197618" duration="670000" />
+      <workItem from="1663130827692" duration="1204000" />
+      <workItem from="1663132050521" duration="628000" />
+      <workItem from="1663143140485" duration="5796000" />
+      <workItem from="1663161721953" duration="3442000" />
     </task>
     <servers />
   </component>
@@ -716,14 +662,28 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.apache.ibatis.binding.BindingException" package="org.apache.ibatis.binding" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mybatis01/resources/mappers/UserMapper.xml">
