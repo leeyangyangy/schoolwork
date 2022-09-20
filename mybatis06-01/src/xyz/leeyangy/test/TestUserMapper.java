@@ -22,18 +22,20 @@ public class TestUserMapper {
 //        3.获取接口对象
             UserMapper userMapper = session.getMapper(UserMapper.class);
             User user1 = new User();
-            user1.setId("1");
-            user1.setName("Lee");
-            user1.setPassword("123321");
-            user1.setAge(22);
+            user1.setId("1234");
+            user1.setName("Eqeadsase");
+            user1.setPassword("123");
+            user1.setAge(2);
 //        user1.setBirthday(new Date());
 //           4. 执行操作
             List<User> list = userMapper.findByD(user1);
             for (User user : list) {
                 System.out.println(user);
             }
+//            事务提交
             session.commit();
         } catch (Exception e) {
+//            事务回滚
             session.rollback();
             e.printStackTrace();
         } finally {
@@ -80,7 +82,7 @@ public class TestUserMapper {
             user1.setId("6f6d5be0-1974-49c8-afa2-5997def6bf44");
             user1.setName("Hello");
             user1.setPassword("10010");
-            user1.setBirthday(new Date());
+//            user1.setBirthday(new Date());
 //            执行update
             int total = userMapper.updateUser(user1);
             System.out.println("更新 " + total + " 条数");

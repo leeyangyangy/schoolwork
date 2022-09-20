@@ -5,15 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2190a38-ab77-4ee3-bc38-db4738011bc7" name="Default" comment="UUID:">
-      <change afterPath="$PROJECT_DIR$/mybatis06-01/src/xyz/leeyangy/test/RandomID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/mybatis06-02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/src/xyz/leeyangy/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/src/xyz/leeyangy/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/src/xyz/leeyangy/test/TestUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/src/xyz/leeyangy/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/src/xyz/leeyangy/utils/Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/test/RandomID.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/lib/hamcrest-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/lib/mybatis-3.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-02/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/mybatis06-03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/src/xyz/leeyangy/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/src/xyz/leeyangy/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/src/xyz/leeyangy/test/TestUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/src/xyz/leeyangy/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/test/RandomID.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/lib/hamcrest-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/lib/mybatis-3.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis06-03/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis06-01/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-01/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-01/src/xyz/leeyangy/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-01/src/xyz/leeyangy/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-01/src/xyz/leeyangy/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-01/src/xyz/leeyangy/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis06-01/src/xyz/leeyangy/test/TestUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-01/src/xyz/leeyangy/test/TestUserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -245,7 +293,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LEEYANGYANG/IdeaProjects/schoolwork/mybatis06-01&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LEEYANGYANG/IdeaProjects/schoolwork/mybatis06-02/web/WEB-INF/lib&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -265,7 +313,7 @@
       <recent name="C:\Users\17872\IdeaProjects\learn_ssm\mybatis01\web\WEB-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestUserMapper.testUpdateUser">
+  <component name="RunManager" selected="JUnit.TestUserMapper.testFindUserById">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -273,22 +321,25 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="RandomID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.RandomID" />
-      <module name="mybatis06-01" />
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserMapper.testFindByWhere" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis06-02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xyz.leeyangy.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PACKAGE_NAME" value="xyz.leeyangy.test" />
+      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestUserMapper" />
+      <option name="METHOD_NAME" value="testFindByWhere" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -310,8 +361,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUserMapper.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis06-01" />
+    <configuration name="TestUserMapper.testUpdate (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis06-03" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xyz.leeyangy.test.*" />
@@ -320,7 +371,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="xyz.leeyangy.test" />
       <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestUserMapper" />
-      <option name="METHOD_NAME" value="testLogin" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserMapper.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis06-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.leeyangy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.leeyangy.test" />
+      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestUserMapper" />
+      <option name="METHOD_NAME" value="testUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -439,10 +507,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestUserMapper.testUpdateUser" />
-        <item itemvalue="JUnit.TestUserMapper.testLogin" />
-        <item itemvalue="Application.RandomID" />
         <item itemvalue="JUnit.TestUserMapper.testFindUserById" />
+        <item itemvalue="JUnit.TestUserMapper.testUpdateUser" />
+        <item itemvalue="JUnit.TestUserMapper.testFindByWhere" />
+        <item itemvalue="JUnit.TestUserMapper.testUpdate" />
+        <item itemvalue="JUnit.TestUserMapper.testUpdate (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -485,6 +554,7 @@
       <workItem from="1663556178085" duration="1599000" />
       <workItem from="1663582945251" duration="1551000" />
       <workItem from="1663597773002" duration="3891000" />
+      <workItem from="1663688407927" duration="2952000" />
     </task>
     <task id="LOCAL-00001" summary="add resultMap">
       <created>1663165261893</created>

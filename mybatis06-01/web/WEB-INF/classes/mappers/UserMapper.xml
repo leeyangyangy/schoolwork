@@ -8,10 +8,24 @@
 
     <!--    2.动态sql-->
     <select id="findByD" parameterType="User" resultMap="userMap">
-        select * from t_user where 1=1
-        <if test="id!=null">
-            and id=#{id}
-        </if>
+        select * from t_user
+        <where>
+            <if test="id!=null">
+                and id=#{id}
+            </if>
+            <if test="name!=null">
+                and username=#{name}
+            </if>
+            <if test="password!=null">
+                and passwd=#{password}
+            </if>
+            <if test="age!=null">
+                and age=#{age}
+            </if>
+            <if test="birthday!=null">
+                and birthday=#{birthday}
+            </if>
+        </where>
     </select>
 
     <!--    1.动态sql+
@@ -36,7 +50,10 @@
         </trim>
     </select>
 
-    <!--    更新-->
+    <!--    更新
+            set至少要求一个条件成立
+            suffixOverrides去掉最后一个逗号
+    -->
     <update id="updateUser" parameterType="User">
         update t_user
         <trim prefix="set" suffixOverrides=",">

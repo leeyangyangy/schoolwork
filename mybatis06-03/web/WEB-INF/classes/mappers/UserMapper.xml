@@ -5,9 +5,8 @@
 <!--namespcae 接口的全类名-->
 <mapper namespace="xyz.leeyangy.dao.UserMapper">
 
-
-    <!--    2.动态sql-->
-    <select id="findByD" parameterType="User" resultMap="userMap">
+    <!--    1.where标签-->
+    <select id="findUserByWhere" parameterType="User" resultMap="userMap">
         select * from t_user
         <where>
             <if test="id!=null">
