@@ -3,17 +3,17 @@ package xyz.leeyangy.pojo;
 import java.util.Date;
 
 public class User {
-    private Integer id;
+    private String id;
     private String name;
     private String password;
     private Integer age;
     private Date birthday;
 
-    public Integer getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -52,7 +52,7 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
+                "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", password='" + password + '\'' +
                 ", age=" + age +

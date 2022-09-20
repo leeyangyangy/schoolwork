@@ -4,43 +4,6 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--namespcae 接口的全类名-->
 <mapper namespace="xyz.leeyangy.dao.UserMapper">
-    <!--查询所有用户-->
-    <!--id和接口中的方法名一致-->
-    <select id="findAll" resultMap="userMap">
-        SELECT *
-        from t_user
-    </select>
-
-    <!--根据用户id查询用户信息-->
-    <!--parameterType 用于配置方法入参,取值是参数的数据类型-->
-    <!--    <select id="getUserById" parameterType="int" resultType="User">-->
-    <!--        SELECT *-->
-    <!--        from t_user-->
-    <!--        where id = #{id}-->
-    <!--    </select>-->
-
-
-    <!--
-       resultMap  id:id唯一 对应resultMap的属性值
-                  type:全类名(可以写别名)
-
-    -->
-
-    <resultMap id="userMap" type="User">
-        <!--        column 对应数据库的字段名   property对应实体类名-->
-        <id column="id" property="id"></id>
-        <result column="t_name" property="name"></result>
-        <result column="t_password" property="password"></result>
-        <result column="age" property="age"></result>
-        <result column="birthday" property="birthday"></result>
-    </resultMap>
-
-
-    <!--    1.插入主键返回-->
-    <insert id="addUser" parameterType="User" useGeneratedKeys="true" keyProperty="id">
-        insert into t_user (t_name, t_password, age, birthday)
-        values (#{name}, #{password}, #{age}, #{birthday})
-    </insert>
 
 
     <!--    2.动态sql-->
@@ -51,14 +14,58 @@
         </if>
     </select>
 
-    <!--    模糊查询-->
-    <select id="findByLike" parameterType="String" resultMap="userMap">
-        select *
-        from t_user
-        where t_name like concat("%", #{name}, "%")
-        --         select *from t_user where t_name like concat("%",”${value}“,"%")
---             对于简单数据来说，如果要用 $ 来表示 则 {}内需要填写 value
-
+    <!--    1.动态sql+
+    <where> 标签,所有条件都不成立，则不执行；
+                成立则执行
+    使用trim代替where标签
+            trim 标签属性
+            prefix 在代码块之前加点什么内容，
+            suffix后就加什么内容
+            prefixOverrides 在代码块之前去掉什么多余的内容；
+            suffixOverrides：在代码之后去掉什么多余的内容。
+    -->
+    <select id="login" parameterType="User" resultMap="userMap">
+        select * from t_user
+        <trim prefix="where" prefixOverrides="and|or">
+            <if test="name!=null and name!='' ">
+                and username=#{name}
+            </if>
+            <if test="password!=null and password!=''">
+                and passwd=#{password}
+            </if>
+        </trim>
     </select>
+
+    <!--    更新
+            set至少要求一个条件成立
+            suffixOverrides去掉最后一个逗号
+    -->
+    <update id="updateUser" parameterType="User">
+        update t_user
+        <trim prefix="set" suffixOverrides=",">
+            <if test="name!=null">
+                username=#{name},
+            </if>
+            <if test="password!=null">
+                passwd=#{password},
+            </if>
+            <if test="age!=null">
+                age=#{age},
+            </if>
+            <if test="birthday!=null">
+                birthday=#{birthday},
+            </if>
+        </trim>
+        where id=#{id}
+    </update>
+    <resultMap id="userMap" type="User">
+        <!--        column 对应数据库的字段名   property对应实体类名-->
+        <id column="id" property="id"></id>
+        <result column="username" property="name"></result>
+        <result column="passwd" property="password"></result>
+        <result column="age" property="age"></result>
+        <result column="birthday" property="birthday"></result>
+    </resultMap>
+
 
 </mapper>
