@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespcae 接口的全类名-->
+<mapper namespace="xyz.leeyangy.dao.UserMapper">
+
+
+    <!--    2.动态sql-->
+    <select id="findByD" parameterType="User" resultMap="userMap">
+        select * from t_user
+        <where>
+            <if test="id!=null">
+                and id=#{id}
+            </if>
+            <if test="name!=null">
+                and username=#{name}
+            </if>
+            <if test="password!=null">
+                and passwd=#{password}
+            </if>
+            <if test="age!=null">
+                and age=#{age}
+            </if>
+            <if test="birthday!=null">
+                and birthday=#{birthday}
+            </if>
+        </where>
+    </select>
+
+    <!--    1.动态sql+
+    <where> 标签,所有条件都不成立，则不执行；
+                成立则执行
+    使用trim代替where标签
+            trim 标签属性
+            prefix 在代码块之前加点什么内容，
+            suffix后就加什么内容
+            prefixOverrides 在代码块之前去掉什么多余的内容；
+            suffixOverrides：在代码之后去掉什么多余的内容。
+    -->
+    <select id="login" parameterType="User" resultMap="userMap">
+        select * from t_user
+        <trim prefix="where" prefixOverrides="and|or">
+            <if test="name!=null and name!='' ">
+                and username=#{name}
+            </if>
+            <if test="password!=null and password!=''">
+                and passwd=#{password}
+            </if>
+        </trim>
+    </select>
+
+    <!--    更新
+            set至少要求一个条件成立
+            suffixOverrides去掉最后一个逗号
+    -->
+    <update id="updateUser" parameterType="User">
+        update t_user
+        <trim prefix="set" suffixOverrides=",">
+            <if test="name!=null">
+                username=#{name},
+            </if>
+            <if test="password!=null">
+                passwd=#{password},
+            </if>
+            <if test="age!=null">
+                age=#{age},
+            </if>
+            <if test="birthday!=null">
+                birthday=#{birthday},
+            </if>
+        </trim>
+        where id=#{id}
+    </update>
+    <resultMap id="userMap" type="User">
+        <!--        column 对应数据库的字段名   property对应实体类名-->
+        <id column="id" property="id"></id>
+        <result column="username" property="name"></result>
+        <result column="passwd" property="password"></result>
+        <result column="age" property="age"></result>
+        <result column="birthday" property="birthday"></result>
+    </resultMap>
+
+
+</mapper>
