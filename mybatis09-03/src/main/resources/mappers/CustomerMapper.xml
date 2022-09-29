@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespcae 接口的全类名-->
+<mapper namespace="xyz.leeyangy.dao.CustomerMapper">
+<!--    查询指定的客户以及关联订单信息-->
+    <select id="" parameterType="int" resultMap="customerMap">
+        SELECT *
+        FROM t_order o,
+             t_customer c
+        WHERE c.cid = o.cid
+          and c.cid = #{cid}
+    </select>
+    <resultMap id="customerMap" type="Customer">
+        <id column="cid" property="cid"/>
+        <result column="cname" property="cname"/>
+        <result column="password" property="password"/>
+        <result column="telephone" property="telephone"/>
+        
+        <collection property="or"
+    </resultMap>
+</mapper>

@@ -15,8 +15,13 @@
         <option value="$PROJECT_DIR$/mybatis07-02/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis07-03/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis08-01/mybatis08-01/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis08-02/mybatis08-02/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis08-02/mybatis08-03/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis08-02/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis09-01/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis09-02/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis09-03/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis08-03/pom.xml" />
+        <option value="$PROJECT_DIR$/jdbc_stu_manager/pom.xml" />
       </list>
     </option>
   </component>

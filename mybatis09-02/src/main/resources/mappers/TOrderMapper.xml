@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespcae 接口的全类名-->
+<mapper namespace="xyz.leeyangy.dao.TOrderMapper">
+    <!--    根据oid查询指定的订单以及关联的商品信息-->
+    <select id="" parameterType="int" resultMap="">
+        SELECT *
+        FROM t_order o,
+             t_product p,
+             t_order_product op
+        WHERE o.oid = op.oid
+          and p.pid = op.pid
+          and o.oid = #{oid};
+    </select>
+    <!--    查询所有订单及其关联的所有商品信息-->
+    <select id="" resultMap="">
+        SELECT *
+        FROM t_order o,
+             t_product p,
+             t_order_product op
+        WHERE o.oid = op.oid
+          and op.pid = p.pid;
+    </select>
+
+    <resultMap id="tOrderMap" type="TOrder">
+        <id property="oid" column="oid"/>
+        <result property="status" column="status"/>
+        <result property="totalPrice" column="total_price"/>
+        <result property="cid" column="cid"/>
+        <result property="createTime" column="createtime"/>
+        <!--        property 配置一对一关联关系的对象名称
+                    javaType 配置一对一关联关系对象的数据类型
+        -->
+        <association property="customers" javaType="Customer">
+            <id property="cid" column="cid"/>
+            <result property="cname" column="cname"/>
+            <result property="telephone" column="telephone"/>
+            <result property="password" column="password"/>
+        </association>
+    </resultMap>
+</mapper>
