@@ -4,145 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2190a38-ab77-4ee3-bc38-db4738011bc7" name="Default" comment="null">
-      <change afterPath="$PROJECT_DIR$/mybatis07-01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-01/src/main/java/xyz/leeyangy/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-01/src/main/java/xyz/leeyangy/utils/IDUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-01/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-01/src/main/test/java/xyz.leeyangy.test/TestUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-01/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-02/src/main/java/xyz/leeyangy/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-02/src/main/java/xyz/leeyangy/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-02/src/main/java/xyz/leeyangy/utils/IDUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-02/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-02/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-02/src/test/java/xyz/leeyangy/test/TestMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-03/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-03/src/main/java/xyz/leeyangy/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-03/src/main/java/xyz/leeyangy/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-03/src/main/java/xyz/leeyangy/utils/IDUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-03/src/main/java/xyz/leeyangy/utils/MybatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-03/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-03/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis07-03/src/test/java/xyz/leeyangy/test/TestMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/mybatis08-01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/mybatis08-01/src/main/java/xyz/leeyangy/dao/CustomerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/mybatis08-01/src/main/java/xyz/leeyangy/dao/TOrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/mybatis08-01/src/main/java/xyz/leeyangy/pojo/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/mybatis08-01/src/main/java/xyz/leeyangy/pojo/TOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/mybatis08-01/src/main/java/xyz/leeyangy/utils/IDUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/mybatis08-01/src/main/java/xyz/leeyangy/utils/MybatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/mybatis08-01/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/mybatis08-01/src/main/resources/mappers/CustomerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/mybatis08-01/src/main/resources/mappers/TOrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/mybatis08-01/src/test/java/xyz/leeyangy/test/TestCustomerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/mybatis08-01/src/test/java/xyz/leeyangy/test/TestOrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/src/main/java/xyz/leeyangy/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/src/main/java/xyz/leeyangy/utils/IDUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/src/main/java/xyz/leeyangy/utils/MybatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/src/main/test/java/xyz.leeyangy.test/TestUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/target/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/target/classes/mappers/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/target/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/target/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/target/classes/xyz/leeyangy/utils/IDUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/target/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis08-01/target/test-classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
+    <list default="true" id="b2190a38-ab77-4ee3-bc38-db4738011bc7" name="Default" comment="use maven">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/mybatis07-01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/resources/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis07-01/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/resources/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/src/xyz/leeyangy/dao/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/src/xyz/leeyangy/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis07-01/src/main/java/xyz/leeyangy/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/src/xyz/leeyangy/test/TestUserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/src/xyz/leeyangy/utils/MybatisUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/web/WEB-INF/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/web/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/web/WEB-INF/classes/mappers/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/web/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/web/WEB-INF/classes/xyz/leeyangy/test/RandomID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/web/WEB-INF/lib/hamcrest-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/web/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/web/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/web/WEB-INF/lib/mybatis-3.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/web/WEB-INF/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-01/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/mybatis07-02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/resources/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis07-01/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/resources/mappers/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis07-01/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/src/xyz/leeyangy/dao/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/src/xyz/leeyangy/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis08-01/src/main/java/xyz/leeyangy/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/src/xyz/leeyangy/test/TestUserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/src/xyz/leeyangy/utils/MybatisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis07-01/src/main/java/xyz/leeyangy/utils/MybatisUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/web/WEB-INF/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/web/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis07-02/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/web/WEB-INF/classes/mappers/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/web/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis07-03/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/web/WEB-INF/classes/xyz/leeyangy/test/RandomID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/web/WEB-INF/lib/hamcrest-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/web/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/web/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/web/WEB-INF/lib/mybatis-3.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/web/WEB-INF/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-02/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/mybatis07-03.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/resources/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis07-03/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/resources/mappers/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis08-01/mybatis08-01/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/src/xyz/leeyangy/dao/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/src/xyz/leeyangy/pojo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/src/xyz/leeyangy/test/TestUserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/src/xyz/leeyangy/utils/MybatisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis07-02/src/main/java/xyz/leeyangy/utils/MybatisUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/web/WEB-INF/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/web/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis08-01/mybatis08-01/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/web/WEB-INF/classes/mappers/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/web/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis07-02/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/web/WEB-INF/classes/xyz/leeyangy/test/RandomID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/web/WEB-INF/lib/hamcrest-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/web/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/web/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/web/WEB-INF/lib/mybatis-3.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/web/WEB-INF/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis07-03/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_maven/test_maven/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_maven/test_maven/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_maven/test_maven/src/main/java/xyz/leeyangy/servlets/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_maven/test_maven/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08-02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis08-02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08-03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis08-03/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis09-01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis09-01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis09-02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis09-02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis09-03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis09-03/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +38,15 @@
       <dir>C:\Users\17872\IdeaProjects\learn_ssm\mybatis01\web\WEB-INF\classes</dir>
     </dirStrings>
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/mybatis" />
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="LEEYANGYANG &lt;liyangyang0713@foxmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -381,7 +262,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Users/17872/IdeaProjects/schoolwork/mybatis09-01",
+    "last_opened_file_path": "C:/Users/17872/IdeaProjects/schoolwork/jdbc_stu_manager",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -390,11 +271,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\17872\IdeaProjects\schoolwork\mybatis08-01" />
-      <recent name="C:\Users\17872\IdeaProjects\schoolwork\mybatis08-02\mybatis08-03\src\main\java\xyz\leeyangy" />
-      <recent name="C:\Users\17872\IdeaProjects\schoolwork\mybatis08-02\mybatis08-03\src\main" />
-      <recent name="C:\Users\17872\IdeaProjects\schoolwork\mybatis08-02\mybatis08-02\src\main" />
-      <recent name="C:\Users\17872\IdeaProjects\schoolwork\mybatis08-02\mybatis08-02\src\main\java\xyz\leeyangy" />
+      <recent name="C:\Users\17872\IdeaProjects\schoolwork\jdbc_stu_manager" />
+      <recent name="C:\Users\17872\IdeaProjects\schoolwork\mybatis08-03" />
+      <recent name="C:\Users\17872\IdeaProjects\schoolwork\mybatis09-03" />
+      <recent name="C:\Users\17872\IdeaProjects\schoolwork\mybatis09-02" />
+      <recent name="C:\Users\17872\IdeaProjects\schoolwork\mybatis09-01" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\17872\IdeaProjects\learn_ssm\mybatis01\resources\mapper" />
@@ -405,7 +286,7 @@
       <recent name="xyz.leeyangy.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestCustomerMapper">
+  <component name="RunManager" selected="JUnit.TestOrderMapper">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -580,10 +461,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestOrderMapper" />
         <item itemvalue="JUnit.TestCustomerMapper" />
         <item itemvalue="JUnit.TestCustomerMapper.testFIndAll" />
         <item itemvalue="JUnit.TestOrderMapper.testFindTOrderByOid" />
-        <item itemvalue="JUnit.TestOrderMapper" />
       </list>
     </recent_temporary>
   </component>
@@ -636,7 +517,9 @@
       <workItem from="1664263091134" duration="7205000" />
       <workItem from="1664340521581" duration="8426000" />
       <workItem from="1664415627836" duration="996000" />
-      <workItem from="1664440573524" duration="823000" />
+      <workItem from="1664440573524" duration="1128000" />
+      <workItem from="1664462340760" duration="4460000" />
+      <workItem from="1664473873184" duration="653000" />
     </task>
     <task id="LOCAL-00001" summary="add resultMap">
       <created>1663165261893</created>
@@ -659,7 +542,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663691765065</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="use maven">
+      <created>1664441563323</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664441563323</updated>
+    </task>
+    <task id="LOCAL-00005" summary="init this project">
+      <created>1664465172035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664465172035</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -720,7 +617,9 @@
     <MESSAGE value="simple ex" />
     <MESSAGE value="User id: Integer to String" />
     <MESSAGE value="null" />
-    <option name="LAST_COMMIT_MESSAGE" value="null" />
+    <MESSAGE value="use maven" />
+    <MESSAGE value="init this project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init this project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
