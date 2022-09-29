@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/mybatis07-01" />
+    <file type="web" url="file://$PROJECT_DIR$/mybatis07-02" />
+    <file type="web" url="file://$PROJECT_DIR$/mybatis07-03" />
     <file type="web" url="file://$PROJECT_DIR$/test_maven/test_maven" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/test_maven/test_maven/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis07-01/pom.xml" />
+        <option value="$PROJECT_DIR$/mybais07-02/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis07-02/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis07-03/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis08-01/mybatis08-01/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis08-02/mybatis08-02/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis08-02/mybatis08-03/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
