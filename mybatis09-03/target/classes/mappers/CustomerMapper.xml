@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespcae 接口的全类名-->
+<mapper namespace="xyz.leeyangy.dao.CustomerMapper">
+    <!--    查询指定的客户以及关联订单信息-->
+    <select id="findCustomerAndOrderByCid" parameterType="int" resultMap="customerMap">
+        SELECT *
+        FROM t_order o,
+             t_customer c
+        WHERE c.cid = o.cid
+          and c.cid = #{cid}
+    </select>
+
+    <!--    JavaType和ofType都是用来指定对象类型的，
+            但是JavaType是用来指定pojo中属性的类型，
+            而ofType指定的是 映射到list集合属性中pojo的类型 。
+            -->
+
+    <resultMap id="customerMap" type="Customer">
+        <id column="cid" property="cid"/>
+        <result column="cname" property="cname"/>
+        <result column="password" property="password"/>
+        <result column="telephone" property="telephone"/>
+        <collection property="tOrderList" ofType="TOrder">
+            <!--        property 配置集合变量名
+                        ofType   配置集合的泛型类型
+            -->
+            <id column="oid" property="oid"/>
+            <result column="status" property="status"/>
+            <result column="total_price" property="totalPrice"/>
+            <result column="cid" property="cid"/>
+            <result column="createtime" property="createTime"/>
+        </collection>
+    </resultMap>
+</mapper>

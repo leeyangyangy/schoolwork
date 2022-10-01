@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespcae 接口的全类名-->
+<mapper namespace="xyz.leeyangy.dao.UserMapper">
+    <!--查询所有用户-->
+    <!--id和接口中的方法名一致-->
+    <!--    <select id="findAll" resultMap="userMap">-->
+    <!--        SELECT *-->
+    <!--        from t_user-->
+    <!--    </select>-->
+
+    <!--根据用户id查询用户信息-->
+    <!--parameterType 用于配置方法入参,取值是参数的数据类型-->
+    <!--    <select id="getUserById" parameterType="int" resultMap="userMap">-->
+    <!--        SELECT *-->
+    <!--        from t_user-->
+    <!--        where id = #{id}-->
+    <!--    </select>-->
+
+    <!--    1.查询所有-->
+    <select id="findAll" resultMap="userMap">
+        select *
+        from t_user
+    </select>
+
+    <!--2.通过id查询-->
+    <select id="findUserById" resultMap="userMap" parameterType="int">
+        select *
+        from t_user
+        where id = #{id}
+    </select>
+
+    <!--3.通过name和password查询-->
+    <select id="findByNameAndPassword" resultMap="userMap" parameterType="User">
+        select *
+        from t_user
+        where t_name = #{name}
+          and t_password = #{password}
+    </select>
+
+    <!--4.根据用户名查询指定用户信息-->
+    <select id="findUserByName" parameterType="String" resultMap="userMap">
+        select *
+        from t_user
+        where t_name = #{name}
+    </select>
+
+    <!--5.根据用户名和密码查询，通过注解实现用户名和密码查询-->
+    <select id="findUserByParam" resultMap="userMap">
+        select *
+        from t_user
+        where t_name = #{username}
+          and t_password = #{password}
+    </select>
+
+    <!--
+        resultMap
+                id对应resultMap属性值唯一，绑定用
+                type，全类名，可用别名替代
+
+    -->
+
+    <resultMap id="userMap" type="User">
+        <!--    id与result标签作用相同，mybatis对主键做了特殊定义 -->
+        <id column="id" property="id"></id>
+        <result column="t_name" property="name"></result>
+        <result column="t_password" property="password"></result>
+        <result column="age" property="age"></result>
+        <result column="birthday" property="birthday"></result>
+    </resultMap>
+
+</mapper>

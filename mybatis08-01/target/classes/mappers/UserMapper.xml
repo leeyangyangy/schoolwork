@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespcae 接口的全类名-->
+<mapper namespace="xyz.leeyangy.dao.UserMapper">
+
+
+    <!--    2.动态sql-->
+    <select id="findByDy" parameterType="User" resultMap="userMap">
+        select * from t_user
+        <where>
+            <if test="id!=null">
+                and id=#{id}
+            </if>
+            <if test="name!=null">
+                and username=#{name}
+            </if>
+            <if test="password!=null">
+                and passwd=#{password}
+            </if>
+            <if test="age!=null">
+                and age=#{age}
+            </if>
+            <if test="birthday!=null">
+                and birthday=#{birthday}
+            </if>
+        </where>
+    </select>
+
+    <!--    1.动态sql+
+    where,set标签
+
+    <where> 标签,所有条件都不成立，则不执行；
+                成立则执行
+    使用trim代替where标签
+            trim 标签属性
+            prefix 在代码块之前加点什么内容，
+            suffix后就加什么内容
+            prefixOverrides 在代码块之前去掉什么多余的内容；
+            suffixOverrides：在代码之后去掉什么多余的内容。
+    -->
+
+    <!--    foreach标签
+                collection：数据源，会根据传入的参数类型不同而不同
+                    1.当参数为一个集合时，此值为collection，如果参数是list，此值可以用list代替
+                    2.当参数为一个数组时候，此值为array
+                    3.当参数是一个pojo时，此值为pojo对应的属性名，这种情况不能使用@Param("自定义")
+                    4.特殊，此处的值可以通过param("自定义")的方式在Dao方法上指定
+
+                open:开始之前的拼接字符串
+                close:结束遍历后的拼接字符串
+                separator:每次遍历之间的分隔符
+                item:每次遍历出的数据
+                index:遍历的次数，从0开始
+
+    -->
+    <!--    foreach list-->
+    <select id="findByList" resultMap="userMap">
+        select * from t_user where id in
+        -- 如果传进来的参数是list，则collection的值，可以用collection或者list代替
+        <foreach collection="list" item="ids" open="(" separator="," close=")">
+            #{ids}
+        </foreach>
+    </select>
+
+    <!--    Array list-->
+    <select id="findByArrayList" resultMap="userMap">
+        select * from t_user where id in
+        -- 如果传进来的参数是array，则collection的值用array
+        <foreach collection="array" item="ids" open="(" separator="," close=")">
+            #{ids}
+        </foreach>
+    </select>
+
+    <!--    resultMap配置-->
+    <resultMap id="userMap" type="User">
+        <!--        column 对应数据库的字段名   property对应实体类名-->
+        <id column="id" property="id"></id>
+        <result column="username" property="name"></result>
+        <result column="password" property="password"></result>
+        <result column="age" property="age"></result>
+        <result column="birthday" property="birthday"></result>
+    </resultMap>
+
+
+</mapper>

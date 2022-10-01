@@ -1,0 +1,24 @@
+一对一关系
+查询订单编号oid为1的订单信息，同时关联查出顾客信息
+
+一对多
+查询所有客户及其关联的所有订单信息
+
+
+
+#查询订单编号oid为1的订单信息，同时关联查出顾客信息
+SELECT * FROM t_order o,t_customer c WHERE o.cid=c.cid AND o.oid=1;
+
+#查询所有客户及其关联的所有订单信息
+SELECT * FROM t_order o,t_customer c WHERE o.cid=c.cid;
+
+-- 分割
+#查询指定的客户以及关联订单信息
+SELECT * FROM t_order o,t_customer c WHERE c.cid=o.cid and c.cid=1
+
+#查询所有订单及其关联的所有商品信息
+SELECT * FROM t_order o,t_product p,t_order_product op WHERE
+o.oid=op.oid and op.pid=p.pid;
+
+#根据oid查询指定的订单以及关联的商品信息
+SELECT * FROM t_order o,t_product p,t_order_product op WHERE o.oid=op.oid and p.pid=op.pid and o.oid=4;

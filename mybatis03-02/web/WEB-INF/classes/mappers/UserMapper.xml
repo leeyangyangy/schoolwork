@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespcae 接口的全类名-->
+<mapper namespace="xyz.leeyangy.dao.UserMapper">
+    <!--查询所有用户-->
+    <!--id和接口中的方法名一致-->
+    <select id="findAll" resultType="User">
+        SELECT * from t_user
+    </select>
+
+    <!--根据用户id查询用户信息-->
+    <!--parameterType 用于配置方法入参,取值是参数的数据类型-->
+    <select id="getUserById" parameterType="int" resultType="User">
+        SELECT * from t_user where id=#{id}
+    </select>
+
+    <!--新增用户信息-->
+    <insert id="addUser" parameterType="User">
+        insert into t_user (name,password,age,birthday) values (#{name},#{password},#{age},#{birthday});
+    </insert>
+
+    <!--删除用户-->
+    <delete id="delUserById" parameterType="int">
+        DELETE FROM t_user WHERE id=#{id}
+    </delete>
+
+    <!--更新用户信息-->
+    <update id="updateUser" parameterType="User">
+        UPDATE t_user SET name=#{name},password=#{password},age=#{age},birthday=#{birthday} where id=#{id}
+    </update>
+</mapper>
