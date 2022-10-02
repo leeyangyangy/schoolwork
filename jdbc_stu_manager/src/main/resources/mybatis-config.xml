@@ -29,6 +29,8 @@
     </environments>
 
     <mappers>
-
+        <mapper resource="mappers/GradeMapper.xml"/>
+        <mapper resource="mappers/StudentMapper.xml"/>
+        <mapper resource="mappers/SubjectMapper.xml"/>
     </mappers>
 </configuration>
