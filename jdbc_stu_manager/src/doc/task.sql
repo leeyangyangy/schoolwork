@@ -8,59 +8,59 @@
 
 -- 删表
 DROP TABLE
-IF
-	EXISTS t_student_subject;
+    IF
+    EXISTS t_student_subject;
 -- 	分割---
 DROP TABLE
-IF
-	EXISTS t_student;
+    IF
+    EXISTS t_student;
 -- 	分割---
-	DROP TABLE
-IF
-	EXISTS t_grade;
+DROP TABLE
+    IF
+    EXISTS t_grade;
 -- 	分割---
-	DROP TABLE
-IF
-	EXISTS t_subject;
+DROP TABLE
+    IF
+    EXISTS t_subject;
 -- 	分割---
 
 
 -- 班级表
 CREATE TABLE t_grade (
-gid int NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT'班级id',
-gname VARCHAR(200) unique
+                         gid int NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT'班级id',
+                         gname VARCHAR(200) unique
 );
 
 -- 学生信息表
 CREATE TABLE t_student (
-sid int PRIMARY KEY  NOT NUll AUTO_INCREMENT COMMENT '学生学号',
-sname VARCHAR(200) NOT NUll COMMENT '学生姓名',
-stel VARCHAR(20) NOT NULL COMMENT '学生手机号',
-sgid int NOT NULL COMMENT '学生班级',-- 外键对应的主键id
-isadmin int DEFAULT 0 COMMENT '管理员1是0否',
-CONSTRAINT stu_grade_fk0  FOREIGN KEY(sgid) REFERENCES t_grade (gid) ON UPDATE CASCADE ON DELETE CASCADE
+                           sid int PRIMARY KEY  NOT NUll AUTO_INCREMENT COMMENT '学生学号',
+                           sname VARCHAR(200) NOT NUll COMMENT '学生姓名',
+                           stel VARCHAR(20) NOT NULL COMMENT '学生手机号',
+                           sgid int NOT NULL COMMENT '学生班级',-- 外键对应的主键id
+                           isadmin int DEFAULT 0 COMMENT '管理员1是0否',
+                           CONSTRAINT stu_grade_fk0  FOREIGN KEY(sgid) REFERENCES t_grade (gid) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 -- 课程表
 CREATE TABLE t_subject (
-subid int PRIMARY KEY  NOT NUll KEY AUTO_INCREMENT COMMENT '课程id',
-subname VARCHAR(200) COMMENT '课程名称' unique
+                           subid int PRIMARY KEY  NOT NUll KEY AUTO_INCREMENT COMMENT '课程id',
+                           subname VARCHAR(200) COMMENT '课程名称' unique
 );
 
 -- 中间表
 CREATE TABLE t_student_subject (
-ssid INT AUTO_INCREMENT PRIMARY KEY,
-sid int COMMENT '学生id',
-subid int COMMENT '课程id',
-CONSTRAINT t_student_subject_sid_fk0 FOREIGN KEY(sid) REFERENCES t_student(sid) ON UPDATE CASCADE ON DELETE CASCADE,
-CONSTRAINT t_student_subject_subid_fk0 FOREIGN KEY(subid) REFERENCES t_subject(subid) ON UPDATE CASCADE ON DELETE CASCADE
+                                   ssid INT AUTO_INCREMENT PRIMARY KEY,
+                                   sid int COMMENT '学生id',
+                                   subid int COMMENT '课程id',
+                                   CONSTRAINT t_student_subject_sid_fk0 FOREIGN KEY(sid) REFERENCES t_student(sid) ON UPDATE CASCADE ON DELETE CASCADE,
+                                   CONSTRAINT t_student_subject_subid_fk0 FOREIGN KEY(subid) REFERENCES t_subject(subid) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 -- 插入班级信息
 INSERT into t_grade (gname) VALUES ('一班'),('二班'),('三班'),('四班');
 -- 插入学生信息
 INSERT INTO t_student (sname,stel,sgid) VALUES ("李一","10010",1),("李二","10010",2),("李三","10010",3),("李四","10010",4),("李洋洋","10010",1),("杨逵","10010",1)
-,("吴境","10010",2),("叶轩","10010",2),("杨逵","12310",2);
+                                             ,("吴境","10010",2),("叶轩","10010",2),("杨逵","12310",2);
 -- 插入课程信息
 INSERT INTO t_subject (subname) VALUES ("ssm框架开发技术"),("操作系统"),("Mysql"),("数据结构"),("计算机网络");
 -- 中间表
@@ -70,30 +70,30 @@ INSERT INTO t_student_subject (sid,subid) VALUES (1,2),(2,1),(3,3),(4,1),(1,1),(
 -- admin
 -- 1.	查询指定班级下所有学生信息，(一对多)
 SELECT
-	*
+    *
 FROM
-	t_grade g,
-	t_student s
+    t_grade g,
+    t_student s
 WHERE
-	s.sgid = 1
-	AND s.sgid = g.gid;
+        s.sgid = 1
+  AND s.sgid = g.gid;
 -- 2.	删除指定班级，以及该班级下所有学生（两个单表操作）
 DELETE
 FROM
-	t_grade
+    t_grade
 WHERE
-	gid = 1;
+        gid = 1;
 -- 3.	查询学习了指定课程下的所有学生信息（多对多）
 SELECT
-	sub.* ,stu.*
+    sub.* ,stu.*
 FROM
-	t_subject sub,
-	t_student_subject ss,
-	t_student stu
+    t_subject sub,
+    t_student_subject ss,
+    t_student stu
 WHERE
-	stu.sid = ss.sid
-	AND ss.subid = sub.subid
-	AND sub.subname = "ssm框架开发技术";
+        stu.sid = ss.sid
+  AND ss.subid = sub.subid
+  AND sub.subname = "ssm框架开发技术";
 -- 4.	删除指定课程，但是不删除学生信息 （单表）
 DELETE from t_subject WHERE t_subject.subname="ssm框架开发技术";
 -- 5.	添加班级
@@ -113,11 +113,11 @@ UPDATE t_student set stel="11111",sgid=2 WHERE sname="李洋洋";
 -- 学生功能
 -- 1.	查询该学生所在班级信息
 SELECT
-			g.* ,s.*
+    g.* ,s.*
 FROM
-			t_grade g, t_student s
+    t_grade g, t_student s
 WHERE
-			s.sname="李洋洋" and s.sgid=g.gid;
+        s.sname="李洋洋" and s.sgid=g.gid;
 -- 2.	查询该学生自己的所有学生信息
 SELECT * FROM t_student s WHERE s.sname="李洋洋";
 -- 3.	查询该学生选择学习的课程
