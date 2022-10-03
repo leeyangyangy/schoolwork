@@ -3,5 +3,41 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="xyz.leeyangy.dao.SubjectMapper">
+    <!--    公共内容抽取-->
+    <sql id="findAllStudentBySubject">
+        SELECT sub.*,
+               stu.sid,
+               stu.sname,
+               stu.stel
+        FROM t_subject sub,
+             t_student_subject ss,
+             t_student stu
+        WHERE stu.sid = ss.sid
+          AND ss.subid = sub.subid
+          AND sub.subname =
+    </sql>
+    <!--    管理员查询该选课下的所有学生信息-->
+    <select id="findAllStudentBySubject" parameterType="String" resultMap="subjectMap">
+        -- 引入sql片段
+        <include refid="findAllStudentBySubject"/>
+        #{subName};
+    </select>
+
+    <!--    继承一部分属性-->
+    <select id="findAllStudentBySubjectAndSName" parameterType="String" resultMap="subjectMap">
+        <include refid="findAllStudentBySubject"/>
+        #{subName}
+        AND stu.sname = #{sName};
+    </select>
+    <resultMap id="subjectMap" type="Subject">
+        <id column="subid" property="subId"/>
+        <result column="subname" property="subName"/>
+        <collection property="studentList" ofType="Student">
+            <id column="sid" property="sId"/>
+            <result column="sname" property="sName"/>
+            <result column="stel" property="sTel"/>
+            <result column="sGid" property="sGid"/>
+        </collection>
+    </resultMap>
 
 </mapper>

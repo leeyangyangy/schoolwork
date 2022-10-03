@@ -2,6 +2,36 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--全类名-->
 <mapper namespace="xyz.leeyangy.dao.GradeMapper">
+    <!--    一个班级多个学生-->
+    <select id="findAllStudentByGname" parameterType="String" resultMap="gradeMap">
+        <include refid="findAllStudent"/>
+        g.gname = #{gName} ;
+    </select>
 
+    <select id="findMyGradeInfo" parameterType="String" resultMap="gradeMap">
+        <include refid="findAllStudent"/>
+        and s.sname = #{sName};
+    </select>
+
+    <resultMap id="gradeMap" type="Grade">
+        <id column="gid" property="gId"/>
+        <result column="gname" property="gName"/>
+        <collection property="studentList" ofType="Student">
+            <id column="sid" property="sId"/>
+            <result column="sname" property="sName"/>
+            <result column="stel" property="sTel"/>
+            <result column="sGid" property="sGid"/>
+        </collection>
+    </resultMap>
+
+    <!--    公共sql片段抽取-->
+    <sql id="findAllStudent">
+        SELECT *
+        FROM t_grade g,
+             t_student s
+        WHERE s.sgid = g.gid
+          AND
+    </sql>
 </mapper>

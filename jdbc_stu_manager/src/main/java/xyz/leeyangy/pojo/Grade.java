@@ -2,6 +2,8 @@ package xyz.leeyangy.pojo;
 
 import lombok.Data;
 
+import java.util.List;
+
 /**
  * @Package: xyz.leeyangy.pojo
  * @Author: LEEYANGYANG
@@ -10,8 +12,10 @@ import lombok.Data;
  */
 @Data
 public class Grade {
-//    班级id
-    private Integer gid;
-//    班级名
-    private String ganem;
+    //    班级id
+    private Integer gId;
+    //    班级名
+    private String gName;
+    //    一个班级多个学生
+    private List<Student> studentList;
 }

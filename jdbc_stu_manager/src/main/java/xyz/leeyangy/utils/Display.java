@@ -7,13 +7,14 @@ package xyz.leeyangy.utils;
  * @Description:
  */
 public class Display {
-    public void Display_Menu(){
+    public void Display_Menu() {
         System.out.println("------------学生信息管理------------");
         System.out.println("1.登录    2.退出");
         System.out.println("----------------------------------");
 
     }
-    public void Display_Stu(){
+
+    public void Display_Stu() {
         System.out.println("------------学生面板------------");
         System.out.println("1.查询我的班级信息");
         System.out.println("2.查询我的信息");
@@ -23,7 +24,7 @@ public class Display {
         System.out.println("------------------------------");
     }
 
-    public void Display_Admin(){
+    public void Display_Admin() {
         System.out.println("------------管理员面板------------");
         System.out.println("1.查询指定班级下所有学生信息");
         System.out.println("2.删除指定班级，以及该班级下所有学生");

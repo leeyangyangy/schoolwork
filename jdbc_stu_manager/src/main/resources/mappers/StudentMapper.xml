@@ -4,4 +4,61 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="xyz.leeyangy.dao.StudentMapper">
 
+    <!--
+            查询学生信息
+            对于学生来说，一个学生可以有多个选课
+    -->
+    <select id="findSelfInfoBySnameAndSid" parameterType="Student" resultMap="studentSubjectMap">
+        SELECT s.sid,
+               s.sname,
+               s.stel,
+               s.sgid,
+               sub.subname
+        FROM t_student s,
+             t_student_subject ss,
+             t_subject sub
+        WHERE s.sid = ss.sid
+          AND ss.subid = sub.subid
+          AND s.sname = #{sName}
+          AND s.sid = #{sId};
+    </select>
+
+    <!--    更新学生信息-->
+    <update id="updateStudentByStudentClass" parameterType="Student">
+        UPDATE t_student
+        -- suffixOverrides会自动去掉多余的逗号
+        <trim prefix="set" suffixOverrides=",">
+            <if test="sId!=null">
+                sid=#{sId},
+            </if>
+            <if test="sName!=null">
+                sname=#{sName},
+            </if>
+            <if test="sTel!=null">
+                stel=#{sTel},
+            </if>
+            <if test="sGid!=null">
+                sgid=#{sGid},
+            </if>
+            <if test="isAdmin!=null">
+                isadmin=#{isAdmin},
+            </if>
+        </trim>
+        WHERE sname=#{sName} and sid=#{sId};
+    </update>
+
+    <resultMap id="studentSubjectMap" type="Student">
+        <id column="sid" property="sId"/>
+        <result column="sname" property="sName"/>
+        <result column="stel" property="sTel"/>
+        <result column="sgid" property="sGid"/>
+        <!--        property 配置集合变量名
+                    ofType   配置集合的泛型类型
+        -->
+        <collection property="subjectList" ofType="Subject">
+            <!--            <id property="subid" column="subid" />-->
+            <result property="subName" column="subname"/>
+        </collection>
+    </resultMap>
+
 </mapper>

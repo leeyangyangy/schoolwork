@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2190a38-ab77-4ee3-bc38-db4738011bc7" name="Default" comment="null" />
+    <list default="true" id="b2190a38-ab77-4ee3-bc38-db4738011bc7" name="Default" comment="null">
+      <change afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/doc/jdbc项目.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/service/Impl/AdminImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/service/Impl/StudentImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/utils/Commons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/utils/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/test/java/xyz/leeyangy/test/TestGradeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/test/java/xyz/leeyangy/test/TestLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/test/java/xyz/leeyangy/test/TestStudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/test/java/xyz/leeyangy/test/TestSubjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/dao/GradeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/dao/GradeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/dao/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/dao/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/dao/SubjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/dao/SubjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/pojo/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/pojo/Grade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/pojo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/pojo/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/pojo/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/utils/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/utils/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/mappers/GradeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/mappers/GradeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/mappers/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/mappers/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/mappers/SubjectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/mappers/SubjectMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/task" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/GradeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/GradeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/SubjectMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/SubjectMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Grade.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Grade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/utils/Display.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/utils/Display.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +63,13 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="LEEYANGYANG &lt;liyangyang0713@foxmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -242,8 +284,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/17872/IdeaProjects/schoolwork/mybatis09-01&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/17872/IdeaProjects/schoolwork-mybatis/jdbc_stu_manager/src/doc&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
@@ -251,13 +293,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\17872\IdeaProjects\schoolwork-mybatis\jdbc_stu_manager\src\doc" />
       <recent name="C:\Users\17872\IdeaProjects\schoolwork\mybatis08-01" />
       <recent name="C:\Users\17872\IdeaProjects\schoolwork\mybatis08-02\mybatis08-03\src\main\java\xyz\leeyangy" />
       <recent name="C:\Users\17872\IdeaProjects\schoolwork\mybatis08-02\mybatis08-03\src\main" />
       <recent name="C:\Users\17872\IdeaProjects\schoolwork\mybatis08-02\mybatis08-02\src\main" />
-      <recent name="C:\Users\17872\IdeaProjects\schoolwork\mybatis08-02\mybatis08-02\src\main\java\xyz\leeyangy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\17872\IdeaProjects\schoolwork-mybatis\jdbc_stu_manager\src\doc" />
       <recent name="C:\Users\17872\IdeaProjects\learn_ssm\mybatis01\resources\mapper" />
       <recent name="C:\Users\17872\IdeaProjects\learn_ssm\mybatis01\web\WEB-INF" />
     </key>
@@ -266,7 +309,7 @@
       <recent name="xyz.leeyangy.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestTOrderMapper.testFindOrderAndProduct">
+  <component name="RunManager" selected="JUnit.TestGradeMapper.test1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -280,25 +323,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCustomerMapper.testFindCustomerAndOrderByCid (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis09-03" />
+    <configuration name="StudentImpl.findSelfInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_stu_manager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.leeyangy.test.*" />
+          <option name="PATTERN" value="xyz.leeyangy.service.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.leeyangy.test" />
-      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestCustomerMapper" />
-      <option name="METHOD_NAME" value="testFindCustomerAndOrderByCid" />
+      <option name="PACKAGE_NAME" value="xyz.leeyangy.service.Impl" />
+      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.service.Impl.StudentImpl" />
+      <option name="METHOD_NAME" value="findSelfInfo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTOrderMapper.testFIndByOid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis09-02" />
+    <configuration name="TestGradeMapper.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_stu_manager" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xyz.leeyangy.test.*" />
@@ -306,16 +349,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="xyz.leeyangy.test" />
-      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestTOrderMapper" />
-      <option name="METHOD_NAME" value="testFIndByOid" />
+      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestGradeMapper" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTOrderMapper.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis09-02" />
+    <configuration name="TestGradeMapper.testFindAllStudentByGname" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_stu_manager" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xyz.leeyangy.test.*" />
@@ -323,16 +366,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="xyz.leeyangy.test" />
-      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestTOrderMapper" />
-      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestGradeMapper" />
+      <option name="METHOD_NAME" value="testFindAllStudentByGname" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTOrderMapper.testFindByOid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis09-03" />
+    <configuration name="TestStudentMapper.testAddStudentByGrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_stu_manager" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xyz.leeyangy.test.*" />
@@ -340,16 +383,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="xyz.leeyangy.test" />
-      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestTOrderMapper" />
-      <option name="METHOD_NAME" value="testFindByOid" />
+      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestStudentMapper" />
+      <option name="METHOD_NAME" value="testAddStudentByGrade" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTOrderMapper.testFindOrderAndProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis09-03" />
+    <configuration name="TestStudentMapper.testDelStudentBySname" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_stu_manager" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xyz.leeyangy.test.*" />
@@ -357,8 +400,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="xyz.leeyangy.test" />
-      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestTOrderMapper" />
-      <option name="METHOD_NAME" value="testFindOrderAndProduct" />
+      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestStudentMapper" />
+      <option name="METHOD_NAME" value="testDelStudentBySname" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -460,11 +503,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestTOrderMapper.testFindOrderAndProduct" />
-        <item itemvalue="JUnit.TestTOrderMapper.testFindByOid" />
-        <item itemvalue="JUnit.TestCustomerMapper.testFindCustomerAndOrderByCid (1)" />
-        <item itemvalue="JUnit.TestTOrderMapper.testFindAll" />
-        <item itemvalue="JUnit.TestTOrderMapper.testFIndByOid" />
+        <item itemvalue="JUnit.TestGradeMapper.test1" />
+        <item itemvalue="JUnit.TestGradeMapper.testFindAllStudentByGname" />
+        <item itemvalue="JUnit.StudentImpl.findSelfInfo" />
+        <item itemvalue="JUnit.TestStudentMapper.testAddStudentByGrade" />
+        <item itemvalue="JUnit.TestStudentMapper.testDelStudentBySname" />
       </list>
     </recent_temporary>
   </component>
@@ -518,7 +561,11 @@
       <workItem from="1664340521581" duration="8426000" />
       <workItem from="1664415627836" duration="996000" />
       <workItem from="1664440573524" duration="823000" />
-      <workItem from="1664616835812" duration="9455000" />
+      <workItem from="1664616835812" duration="10108000" />
+      <workItem from="1664635269277" duration="2097000" />
+      <workItem from="1664704051292" duration="9286000" />
+      <workItem from="1664765107093" duration="8048000" />
+      <workItem from="1664785640794" duration="33552000" />
     </task>
     <task id="LOCAL-00001" summary="add resultMap">
       <created>1663165261893</created>
@@ -541,7 +588,42 @@
       <option name="project" value="LOCAL" />
       <updated>1663691765065</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add sql and project struct">
+      <created>1664730128296</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664730128296</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create Templated.java">
+      <created>1664730708329</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664730708329</updated>
+    </task>
+    <task id="LOCAL-00006" summary="init project demo">
+      <created>1664731100227</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664731100227</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add mappers">
+      <created>1664731285389</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664731285389</updated>
+    </task>
+    <task id="LOCAL-00008" summary="use student_DB">
+      <created>1664766567765</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664766567765</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -602,7 +684,12 @@
     <MESSAGE value="simple ex" />
     <MESSAGE value="User id: Integer to String" />
     <MESSAGE value="null" />
-    <option name="LAST_COMMIT_MESSAGE" value="null" />
+    <MESSAGE value="add sql and project struct" />
+    <MESSAGE value="create Templated.java" />
+    <MESSAGE value="init project demo" />
+    <MESSAGE value="add mappers" />
+    <MESSAGE value="use student_DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="use student_DB" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -614,6 +701,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IllegalArgumentException" package="java.lang" />
           <option name="timeStamp" value="4" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="7" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
