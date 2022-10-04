@@ -1,12 +1,6 @@
 package xyz.leeyangy.main;
 
-import xyz.leeyangy.pojo.Student;
-import xyz.leeyangy.service.Impl.AdminImpl;
 import xyz.leeyangy.utils.Commons;
-import xyz.leeyangy.utils.Display;
-import xyz.leeyangy.utils.Login;
-
-import java.util.Scanner;
 
 /**
  * @Package: xyz.leeyangy.main

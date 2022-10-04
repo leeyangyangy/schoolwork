@@ -59,19 +59,19 @@ public class TestUserMapper {
         }
     }
 
-    @Test
-    public void testFindById(){
-        SqlSession session=null;
-        try{
-            session=MybatisUtils.getSqlSession();
-            UserMapper userMapper = session.getMapper(UserMapper.class);
-            User user=userMapper.findById(1);
-            System.out.println(user);
-        }catch (Exception e){
-            e.printStackTrace();
-        }finally {
-            MybatisUtils.close(session);
-        }
-    }
+//    @Test
+//    public void testFindById(){
+//        SqlSession session=null;
+//        try{
+//            session=MybatisUtils.getSqlSession();
+//            UserMapper userMapper = session.getMapper(UserMapper.class);
+//            User user=userMapper.findById(1);
+//            System.out.println(user);
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }finally {
+//            MybatisUtils.close(session);
+//        }
+//    }
 
 }

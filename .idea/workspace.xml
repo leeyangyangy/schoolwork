@@ -1,33 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="jdbc_stu_manager:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2190a38-ab77-4ee3-bc38-db4738011bc7" name="Default" comment="demo">
+    <list default="true" id="b2190a38-ab77-4ee3-bc38-db4738011bc7" name="Default" comment="beta v1.0">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/jdbc_stu_manager_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/dao/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/dao/StudentMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/service/Impl/AdminImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/service/Impl/AdminImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/service/Impl/StudentImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/service/Impl/StudentImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/utils/Commons.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/utils/Commons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/utils/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/utils/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/mappers/GradeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/mappers/GradeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/mappers/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/mappers/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/test/java/xyz/leeyangy/test/TestGradeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/test/java/xyz/leeyangy/test/TestGradeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/GradeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/StudentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/SubjectMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Grade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/utils/Display.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/utils/IDUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/GradeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/GradeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/SubjectMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/SubjectMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Grade.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Grade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/utils/Display.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/utils/Display.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/utils/IDUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/utils/IDUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis01-1/web/WEB-INF/classes/xyz/leeyangy/UserMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis01-1/web/WEB-INF/classes/xyz/leeyangy/pojo/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis03-01/src/xyz/leeyangy/test/TestUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis03-01/src/xyz/leeyangy/test/TestUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis03-01/web/WEB-INF/classes/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis03-01/web/WEB-INF/classes/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis03-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis03-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis03-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis03-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis03-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis03-01/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05-01/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-01/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05-02/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-02/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05-02/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-02/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05-02/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-02/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05-02/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-02/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/test/RandomID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/test/RandomID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +105,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -129,6 +177,9 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="311" />
@@ -273,9 +324,9 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "C:/Users/17872/IdeaProjects/schoolwork-mybatis/jdbc_stu_manager/src/main/resources",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.27458033",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -552,7 +603,7 @@
       <workItem from="1664765107093" duration="8048000" />
       <workItem from="1664785640794" duration="33637000" />
       <workItem from="1664853860678" duration="10037000" />
-      <workItem from="1664868197118" duration="567000" />
+      <workItem from="1664868197118" duration="6330000" />
     </task>
     <task id="LOCAL-00001" summary="add resultMap">
       <created>1663165261893</created>
@@ -617,7 +668,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664827579413</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="beta v1.0">
+      <created>1664868924252</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664868924252</updated>
+    </task>
+    <task id="LOCAL-00011" summary="beta v1.0">
+      <created>1664869436583</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664869436583</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -684,7 +749,8 @@
     <MESSAGE value="add mappers" />
     <MESSAGE value="use student_DB" />
     <MESSAGE value="demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo" />
+    <MESSAGE value="beta v1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="beta v1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -700,6 +766,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="7" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="8" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

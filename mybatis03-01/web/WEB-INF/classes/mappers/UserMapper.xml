@@ -22,7 +22,7 @@
 
 <!--
    resultMap  id:id唯一 对应resultMap的属性值
-              type:全类名
+              type:全类名(可以写别名)
 
 -->
 
@@ -35,9 +35,9 @@
         <result column="birthday" property="birthday"></result>
     </resultMap>
 
+    <select id="findById" resultMap="userMap">
+        select * from user where id=#{id}
+    </select>
 
-<!--    <select id="findById" resultMap="userResultMap">-->
-<!--        select * from user where id=#{id}-->
-<!--    </select>-->
 
 </mapper>

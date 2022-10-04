@@ -111,18 +111,18 @@ public class Commons {
 //        login.login();
 //        项目入口主程序
         display.Display_Menu();
-        int sw=1;
+        int sw;
         Scanner scSw=new Scanner(System.in);
 //        获取选择选项
-//        sw=scSw.nextInt();
+        sw=scSw.nextInt();
         switch (sw){
             case 1:
                 System.out.println("请输入登录学生id:");
-//                sId=scId.nextInt();
-                sId=9999;
+                sId=scId.nextInt();
+//                sId=9999;
                 System.out.println("请输入登录学生姓名:");
-//                sName=scSName.nextLine();
-                sName="李洋洋";
+                sName=scSName.nextLine();
+//                sName="李洋洋";
                 s.setSId(sId);
                 s.setSName(sName);
                 System.out.println();

@@ -3,9 +3,6 @@ package xyz.leeyangy.utils;
 import org.apache.ibatis.session.SqlSession;
 import xyz.leeyangy.dao.StudentMapper;
 import xyz.leeyangy.pojo.Student;
-import xyz.leeyangy.service.Impl.StudentImpl;
-
-import java.util.Scanner;
 
 /**
  * @Package: xyz.leeyangy.utils
@@ -27,16 +24,12 @@ public class Login {
             StudentMapper studentMapper = session.getMapper(StudentMapper.class);
 //            执行功能
             Student student = studentMapper.Login(s);
-//            查询结果
-//            System.out.println("s.getSName:" + s.getSName());
-//            System.out.println("s.getSId:" + s.getSId());
-//            System.out.println("student.getSName:" + student.getSName());
-//            System.out.println("student.getSId:" + student.getSId());
-//            System.out.println("student.getIsAdmin:" + student.getIsAdmin());
-            if (s.getSId().equals(student.getSId()) && s.getSName().equals(student.getSName()) && student.getIsAdmin() == 1) {
+//            先做查询，有数据checkstudent不为null,则认为查到数据
+            Student checkStudent = studentMapper.checkStudent(s);
+            if (checkStudent!=null && student.getIsAdmin() == 1) {
                 System.out.println("登录为管理员");
                 commons.admin_menu(s, flag);
-            } else if (s.getSId().equals(student.getSId()) && s.getSName().equals(student.getSName()) && student.getIsAdmin() == 0) {
+            } else if (checkStudent!=null && student.getIsAdmin() == 0) {
                 System.out.println("登录为普通学生");
 //            调用学生commons
                 commons.student_menu(s, flag);
