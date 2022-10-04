@@ -26,7 +26,7 @@ public interface StudentMapper {
      * @param student
      * @return
      */
-    @Select("SELECT * from t_student WHERE sid=#{sId} and stel=#{sTel}")
+    @Select("SELECT * from t_student WHERE sid=#{sId} and sName=#{sName}")
     Student Login(Student student);
 
     /**

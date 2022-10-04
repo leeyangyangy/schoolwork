@@ -7,12 +7,13 @@
     <!--    一个班级多个学生-->
     <select id="findAllStudentByGname" parameterType="String" resultMap="gradeMap">
         <include refid="findAllStudent"/>
-        g.gname = #{gName} ;
+        g.gname = #{gName};
     </select>
 
+<!--    查询自己班级信息-->
     <select id="findMyGradeInfo" parameterType="String" resultMap="gradeMap">
         <include refid="findAllStudent"/>
-        and s.sname = #{sName};
+        s.sname = #{sName};
     </select>
 
     <resultMap id="gradeMap" type="Grade">

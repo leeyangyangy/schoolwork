@@ -155,7 +155,7 @@ public class TestGradeMapper {
 //            获取接口对象
             GradeMapper gradeMapper = session.getMapper(GradeMapper.class);
             Student sInfo = new Student();
-            sInfo.setSId(999);
+            sInfo.setSId(9999);
             sInfo.setSName("李洋洋");
 //            执行功能
             Grade grade = gradeMapper.findMyGradeInfo(sInfo);
@@ -164,7 +164,7 @@ public class TestGradeMapper {
             if (grade == null) {
                 System.out.println("找不到班级");
             } else {
-                System.out.println(grade.getGName() + " 班");
+                System.out.println(grade.getGName());
             }
 //            提交事务
             session.commit();

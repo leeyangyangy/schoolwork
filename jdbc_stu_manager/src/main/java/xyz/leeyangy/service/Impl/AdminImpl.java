@@ -24,7 +24,7 @@ public class AdminImpl {
      * 管理员 添加学生班级
      */
     public void addGrade() {
-        //        1.创建SqlSession对象
+//        1.创建SqlSession对象
         SqlSession session = null;
         try {
 //           获取session
@@ -161,29 +161,46 @@ public class AdminImpl {
     /**
      * 管理员 更新学生信息
      */
-    public void updateStudentInfoBySNameAndSId() {
+    public void updateStudentInfoBySNameAndSId(Student find) {
+        Scanner scanner=new Scanner(System.in);
         //        1.创建SqlSession对象
         SqlSession session = null;
         try {
-
+            String tel;
+            String name;
+            Integer gId;
 //           获取session
             session = MybatisUtils.getSqlSession();
 //            获取接口对象
             StudentMapper studentMapper = session.getMapper(StudentMapper.class);
-            Student sUpdate = new Student();
-            sUpdate.setSTel("13147107758");
-            sUpdate.setSName("李洋洋");
-            sUpdate.setSId(9999);
-            sUpdate.setSGid(4);
+            System.out.println("请输入要修改信息(不要修改的回车即可):");
+//            System.out.println("请输入姓名:");
+//            name=scanner.nextLine();
+//            find.setSName(name);
+
+            System.out.println("请输入电话:");
+            tel=scanner.nextLine();
+            find.setSTel(tel);
+
+            System.out.println("请输入班级(1..2...4...n):");
+            gId=scanner.nextInt();
+
+//            boolean checkGrade()
+
+//            防止误输入，直接赋值 为 1
+            if(gId>=4 ||gId<0){
+                gId=1;
+            }
+            find.setSGid(gId);
 //            执行功能
 //            查询学生是否存在
-            Student checkStudent = studentMapper.checkStudent(sUpdate);
+            Student checkStudent = studentMapper.checkStudent(find);
 //            查询结果
             if (checkStudent == null) {
                 System.out.println("查不到该学生,无法完成修改");
             } else {
                 System.out.println("查询到该学生,请按如下信息填写");
-                if (studentMapper.updateStudentByStudentClass(sUpdate) > 0) {
+                if (studentMapper.updateStudentByStudentClass(find) > 0) {
                     System.out.println("修改成功");
                 } else {
                     System.out.println("修改失败");
@@ -296,6 +313,9 @@ public class AdminImpl {
      * 管理员 删除学生  修改添加信息
      */
     public void delStudentBySName() {
+        Scanner scanner=new Scanner(System.in);
+        Integer id;
+        String name;
         //        1.创建SqlSession对象
         SqlSession session = null;
         try {
@@ -304,8 +324,12 @@ public class AdminImpl {
 //            获取接口对象
             StudentMapper studentMapper = session.getMapper(StudentMapper.class);
             Student sDel = new Student();
-            sDel.setSId(9);
-            sDel.setSName("杨逵");
+            System.out.println("请输入要删除的学生学号:");
+            id=scanner.nextInt();
+            sDel.setSId(id);
+            System.out.println("请输入要删除的学生姓名:");
+            name=scanner.nextLine();
+            sDel.setSName(name);
 //            执行功能
             Student checkStudent = studentMapper.checkStudent(sDel);
             if (checkStudent != null) {
@@ -387,7 +411,7 @@ public class AdminImpl {
 //            获取接口对象
             GradeMapper gradeMapper = session.getMapper(GradeMapper.class);
             String gName;
-            System.out.print("请输入查询班级:");
+            System.out.print("请输入查询班级(一班....二班....四班):");
             gName = scanner.nextLine();
 //            执行功能
 //            检查班级是否存在

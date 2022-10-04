@@ -44,9 +44,9 @@
                 isadmin=#{isAdmin},
             </if>
         </trim>
-        WHERE sname=#{sName} and sid=#{sId};
+        WHERE sid=#{sId};
     </update>
-
+<!--    sname=#{sName} and-->
     <resultMap id="studentSubjectMap" type="Student">
         <id column="sid" property="sId"/>
         <result column="sname" property="sName"/>
