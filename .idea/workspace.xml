@@ -9,72 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2190a38-ab77-4ee3-bc38-db4738011bc7" name="Default" comment="beta v1.0">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/jdbc_stu_manager_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+    <list default="true" id="b2190a38-ab77-4ee3-bc38-db4738011bc7" name="Default" comment="app version: beta v1.0.0.1&#10;update log: fix some bug,simpale login process&#10;&#10;Signed-off-by: LEEYANGYANG &lt;liyangyang0713@foxmail.com&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/utils/Commons.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/utils/Commons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/utils/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/src/main/java/xyz/leeyangy/utils/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/GradeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/GradeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/StudentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/SubjectMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/dao/SubjectMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Grade.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Grade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/pojo/Subject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/utils/Display.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/utils/Display.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/utils/IDUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/utils/IDUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc_stu_manager/target/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis01-1/web/WEB-INF/classes/xyz/leeyangy/UserMapperTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis01-1/web/WEB-INF/classes/xyz/leeyangy/pojo/Emp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis03-01/src/xyz/leeyangy/test/TestUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis03-01/src/xyz/leeyangy/test/TestUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis03-01/web/WEB-INF/classes/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis03-01/web/WEB-INF/classes/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis03-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis03-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis03-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis03-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis03-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis03-01/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-01/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-02/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04-03/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis05-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis05-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis05-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis05-01/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-01/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis05-02/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-02/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis05-02/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-02/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis05-02/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-02/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis05-02/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-02/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis05-03/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-01/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/test/RandomID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-02/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/test/RandomID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/test/TestUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis06-03/web/WEB-INF/classes/xyz/leeyangy/utils/MybatisUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,22 +250,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Users/17872/IdeaProjects/schoolwork-mybatis/jdbc_stu_manager/src/main/resources",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.27458033",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/17872/IdeaProjects/schoolwork-mybatis/jdbc_stu_manager/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.27458033&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\17872\IdeaProjects\schoolwork-mybatis\jdbc_stu_manager\src\main\resources" />
@@ -376,6 +312,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IDUtils.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_stu_manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.leeyangy.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.leeyangy.utils" />
+      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.utils.IDUtils" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestGradeMapper.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdbc_stu_manager" />
       <extension name="coverage">
@@ -387,23 +340,6 @@
       <option name="PACKAGE_NAME" value="xyz.leeyangy.test" />
       <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestGradeMapper" />
       <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestGradeMapper.testAddGrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdbc_stu_manager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.leeyangy.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.leeyangy.test" />
-      <option name="MAIN_CLASS_NAME" value="xyz.leeyangy.test.TestGradeMapper" />
-      <option name="METHOD_NAME" value="testAddGrade" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -540,10 +476,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.IDUtils.test" />
         <item itemvalue="JUnit.TestGradeMapper.test1" />
         <item itemvalue="JUnit.TestGradeMapper.testDelAllStudentByGrade" />
         <item itemvalue="JUnit.TestGradeMapper.testFindAllStudentByGname" />
-        <item itemvalue="JUnit.TestGradeMapper.testAddGrade" />
       </list>
     </recent_temporary>
   </component>
@@ -603,7 +539,9 @@
       <workItem from="1664765107093" duration="8048000" />
       <workItem from="1664785640794" duration="33637000" />
       <workItem from="1664853860678" duration="10037000" />
-      <workItem from="1664868197118" duration="6330000" />
+      <workItem from="1664868197118" duration="7138000" />
+      <workItem from="1664969750327" duration="2530000" />
+      <workItem from="1665046205530" duration="59000" />
     </task>
     <task id="LOCAL-00001" summary="add resultMap">
       <created>1663165261893</created>
@@ -682,7 +620,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664869436583</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="app version: beta v1.0.0.1&#10;update log: fix some bug,simpale login process&#10;&#10;Signed-off-by: LEEYANGYANG &lt;liyangyang0713@foxmail.com&gt;">
+      <created>1664875073130</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664875073131</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -750,7 +695,9 @@
     <MESSAGE value="use student_DB" />
     <MESSAGE value="demo" />
     <MESSAGE value="beta v1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="beta v1.0" />
+    <MESSAGE value="beta v1.0.1" />
+    <MESSAGE value="app version: beta v1.0.0.1&#10;update log: fix some bug,simpale login process&#10;&#10;Signed-off-by: LEEYANGYANG &lt;liyangyang0713@foxmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="app version: beta v1.0.0.1&#10;update log: fix some bug,simpale login process&#10;&#10;Signed-off-by: LEEYANGYANG &lt;liyangyang0713@foxmail.com&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
