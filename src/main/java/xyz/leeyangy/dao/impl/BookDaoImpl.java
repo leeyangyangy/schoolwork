@@ -9,6 +9,11 @@ import xyz.leeyangy.dao.BookDao;
  * @Description:
  */
 public class BookDaoImpl implements BookDao {
+//    bean默认使用无参构造方法（常用）
+//    如果无参构造方法不存在，则抛出异常beanCreationException
+    public BookDaoImpl(){
+        System.out.println("book dao constructor is running ...");
+    }
     public void save(){
         System.out.println("book dao save");
     }
