@@ -11,7 +11,7 @@
     </settings>
     <!--起别名-->
     <typeAliases>
-        <package name="xyz.leeyangy.pojo"/>
+        <package name="xyz.leeyangy.domain"/>
     </typeAliases>
     <!--配置开发环境-->
     <environments default="mysql">
@@ -20,14 +20,15 @@
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
                 <!--连接信息-->
-                <property name="driver" value="${driver}"/>
-                <property name="url" value="${url}"/>
-                <property name="username" value="${user}"/>
-                <property name="password" value="${passwd}"/>
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.user}"/>
+                <property name="password" value="${jdbc.passwd}"/>
             </dataSource>
         </environment>
     </environments>
 
+<!--    引用mapper.xml文件-->
     <mappers>
         <mapper resource="mappers/AccountMapper.xml"/>
     </mappers>
