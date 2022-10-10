@@ -13,7 +13,8 @@ import javax.sql.DataSource;
  */
 //配置注解
 @Configuration
-//@ComponentScan("xyz.leeyangy.config") 不推荐
-@Import(JdbcConfig.class) //可以精准定位到类
+@ComponentScan("xyz.leeyangy")
+@PropertySource("classpath:db.properties")
+@Import({JdbcConfig.class, MybatisConfig.class})
 public class SpringConfig {
 }

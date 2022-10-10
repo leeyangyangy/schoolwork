@@ -1,4 +1,4 @@
-package xyz.leeyangy.dao.impl;
+package xyz.leeyangy.dao;
 
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
@@ -16,7 +16,7 @@ import java.util.List;
 public interface AccountDao {
 //    通过id查找用户
     @Select("SELECT * from t_account WHERE id=#{ids}")
-    Account findUserById(Integer ids);
+    Account findById(Integer ids);
 
 //    查找所有用户
     @Select("select * from t_account")
@@ -24,10 +24,12 @@ public interface AccountDao {
 
 //    删除用户
     @Delete("delete from t_account where id=#{ids}")
-    int delateUserById(Integer ids);
+    int deleteUserById(Integer ids);
 
 //    新增用户
-    @Insert("")
+    @Insert("insert into t_account (name,money) value (#{name},#{money}")
     int addUser(Account account);
 
+//    更新用户信息
+    int updateById(Account account);
 }
