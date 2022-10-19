@@ -127,10 +127,31 @@ public class AdminImpl {
 //            获取接口对象
             StudentMapper studentMapper = session.getMapper(StudentMapper.class);
             Student studentCheck = new Student();
-            studentCheck.setSName("李洋洋");
-            studentCheck.setSId(9999);
-            studentCheck.setSTel("20001");
-            studentCheck.setSGid(1);
+            Scanner sc=new Scanner(System.in);
+//            获取学生姓名
+            String sname;
+//            获取学生id
+            Integer ids;
+//            获取学生电话
+            String tel;
+//            获取学生班级
+            Integer sclass;
+            System.out.println("请输入要添加学生的姓名:");
+            sname=sc.nextLine();
+            studentCheck.setSName(sname);
+//            studentCheck.setSName("李洋洋");
+            System.out.println("请输入要添加学生的id:");
+            ids=sc.nextInt();
+            studentCheck.setSId(ids);
+//            studentCheck.setSId(9999);
+            System.out.println("请输入要添加学生的电话:");
+            tel=sc.nextLine();
+//            studentCheck.setSTel("20001");
+            studentCheck.setSTel(tel);
+//            studentCheck.setSGid(1);
+            System.out.println("请输入要添加学生的班级:");
+            sclass=sc.nextInt();
+            studentCheck.setSGid(sclass);
 //            执行功能
 //            检查学生是否存在
             Student checkStudent = studentMapper.checkStudent(studentCheck);
