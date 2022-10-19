@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespcae 接口的全类名-->
+<mapper namespace="xyz.leeyangy.dao.TOrderMapper">
+<!--    查询订单编号 oid 的 ？ 订单信息   一对一查询   -->
+    <select id="findTOrderByOid" parameterType="Integer" resultMap="customerMap">
+        SELECT *
+        FROM t_order o
+        WHERE o.oid = #{oIds};
+    </select>
+
+<!--    一对多查询-->
+    <select id="findAllOrderByCid" parameterType="Integer" resultMap="baseMap">
+        SELECT *
+        FROM t_order o
+        WHERE o.cid = #{cIds};
+    </select>
+
+    <resultMap id="baseMap" type="TOrder">
+        <id property="oid" column="oid"/>
+        <result property="status" column="status"/>
+        <result property="totalPrice" column="total_price"/>
+        <result property="cid" column="cid"/>
+        <result property="createTime" column="createtime"/>
+    </resultMap>
+
+    <!--    查询订单编号 oid 的 ？ 订单信息  一对一   -->
+    <resultMap id="customerMap" type="TOrder" extends="baseMap">
+        <association property="customer" javaType="Customer" column="cid"
+                     select="xyz.leeyangy.dao.CustomerMapper.findCustomerByCid"/>
+    </resultMap>
+
+
+</mapper>
+
